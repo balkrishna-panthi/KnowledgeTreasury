@@ -11,7 +11,7 @@ for eg: if I am running my app in production environment and I whenever I call c
 
 ##Lets understand it with real demo
 Here are my appsettings file in different environments
-![image](https://github.com/user-attachments/assets/d78c6aeb-d02a-4c36-a9d8-42c7edd4ff6c)  ![image](https://github.com/user-attachments/assets/cd3249fc-f772-4ba3-875b-6a12a54acbd0)
+![image](https://github.com/user-attachments/assets/d78c6aeb-d02a-4c36-a9d8-42c7edd4ff6c) ![image](https://github.com/user-attachments/assets/b582b7d1-633c-4dc2-9dc5-c7e480e85beb)
 
 
 1. First of all  I ran my app in Development environment as shown in the image below. Then called .GetSection() method to retrieve value from appsettings file
