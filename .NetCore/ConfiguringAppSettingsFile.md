@@ -11,7 +11,7 @@ Here the above code section deals with configuring the appsettings file.
 My motto was, when I call config.GetSection() method to retrieve any value from appsettings file then I should be able to get the value from the appsettings files for the particular environment only.
 for eg: if I am running my app in production environment and I whenever I call config.GetSection() method thenI should get value from the "appsettings.production.json
 
-##Lets understand it with real demo
+## Lets understand it with real demo
 Here are my appsettings file in different environments
 ![image](https://github.com/user-attachments/assets/d78c6aeb-d02a-4c36-a9d8-42c7edd4ff6c) ![image](https://github.com/user-attachments/assets/b582b7d1-633c-4dc2-9dc5-c7e480e85beb)
 
