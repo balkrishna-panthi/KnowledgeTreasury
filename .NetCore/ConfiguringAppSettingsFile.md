@@ -7,4 +7,4 @@ builder.Configuration.AddConfiguration(config);
 my motto was, when I call config.GetSection() method to retrieve any value from appsettings file then
 I should be able to get the value from the appsettings files for the particular environment
 for eg: if I am running my app in production environment and I whenever I call config.GetSection() method thenI should get value from the "appsettings.production.json
-![image](https://github.com/user-attachments/assets/f229caf3-3ed8-4f77-9a2f-1454febc3661)
+![image](https://raw.githubusercontent.com/user-attachments/assets/f229caf3-3ed8-4f77-9a2f-1454febc3661)
