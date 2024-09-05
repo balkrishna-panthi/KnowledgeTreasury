@@ -1,9 +1,9 @@
 
-![image](https://github.com/user-attachments/assets/e5a45ec9-6b4b-4789-baf3-dfaa18d59f4a)
 ```csharp
 var environment = builder.Environment.EnvironmentName;
 var config = new ConfigurationBuilder().AddJsonFile($"appsettings.{environment}.json", optional: false).Build();
 builder.Configuration.AddConfiguration(config);
+```
 
 #here this section deals with configuring the appsettings fiel 
 my motto was, when I call config.GetSection() method to retrieve any value from appsettings file then
